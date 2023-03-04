@@ -1,0 +1,41 @@
+h1 {
+    width: 200px;
+    height: 50px;
+    background-color: #a52a2a;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+p {
+    width: 500px;
+    text-indent: 2em;
+    text-align: justify;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    line-height: 28px
+}
+
+.mark1 {
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.mark2 {
+    text-decoration-style: wavy;
+}
+
+.mark3 {
+    color: orange;
+}
+
+.mark4 {
+    font-style: italic
+}
+
+.p1 {
+    font-family: "Sofia", sans-serif;
+    text-indent: 0
+}
