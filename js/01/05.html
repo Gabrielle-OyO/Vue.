@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function fib(num) {
+            if (num === 0) return 0;
+            if (num === 1) return 1;
+            return fib(num - 2) + fib(num - 1);
+        }
+        fib(6)
+
+
+        function add(x, y) {
+            return x + y;
+        }
+
+        var operator = add;
+
+        function a(op) {
+            return op;
+        }
+        a(add)(1, 2)
+
+
+        function f1() { }
+        f1.name
+
+
+        var myFunc = function () { };
+        function test(f) {
+            console.log(f.name);
+        }
+        test(myFunction)
+
+
+        function f() {
+            a();
+            b();
+            c();
+        }
+        f.toDtring()
+
+        Math.sqrt.toString()
+
+        function f() { }
+        f.tostring()
+
+        var multiline = function (fn) {
+            var arr = fn.toString().split('\n');
+            return arr.slice(1, arr.length - 1).join('\n');
+        };
+
+        function f() {/*
+            这是一个
+            多行注释
+        */ }
+
+        multiline(f);
+
+    </script>
+</body>
+
+</html>
